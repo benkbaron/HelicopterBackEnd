@@ -1,0 +1,2 @@
+json.parachuter_highscore @parachuter_highscore
+json.bird_highscore @bird_highscore
