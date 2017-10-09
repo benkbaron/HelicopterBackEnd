@@ -1,8 +1,8 @@
 class Api::ScoresController < ApplicationController
 
   def index
-    @parachuter_highscore = Score.find_parachuter_highscore
-    @bird_highscore = Score.find_bird_highscore
+    @parachuter_highscores = Score.find_parachuter_highscores
+    @bird_highscores = Score.find_bird_highscores
     render :index
   end
 
@@ -18,7 +18,7 @@ class Api::ScoresController < ApplicationController
   private
 
   def score_params
-    params.require(:score).permit(:parachuters, :birds)
+    params.require(:score).permit(:initials, :parachuters, :birds)
   end
 
 end

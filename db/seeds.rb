@@ -8,6 +8,9 @@
 
 Score.delete_all
 
-Score.create!({parachuters: 5, birds: 3})
-Score.create!({parachuters: 2, birds: 2})
-Score.create!({parachuters: 4, birds: 7})
+Score.create!({initials: "CIB", parachuters: 5, birds: 3})
+Score.create!({initials: "BMB", parachuters: 2, birds: 2})
+Score.create!({initials: "LOL", parachuters: 1, birds: 1})
+Score.create!({initials: "HEY", parachuters: 1, birds: 0})
+Score.create!({initials: "VCR", parachuters: 0, birds: 0})
+Score.create!({initials: "MBM", parachuters: 4, birds: 7})

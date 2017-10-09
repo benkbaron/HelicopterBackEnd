@@ -1,2 +1,2 @@
-json.parachuter_highscore @parachuter_highscore
-json.bird_highscore @bird_highscore
+json.parachuter_highscores @parachuter_highscores
+json.bird_highscores @bird_highscores
