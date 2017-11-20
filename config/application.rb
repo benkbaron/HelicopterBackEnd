@@ -16,7 +16,7 @@ module Helicopter
     # -- all .rb files in that directory are automatically loaded.
 
     config.action_dispatch.default_headers = {
-      'Access-Control-Allow-Origin' => 'http://benbaron.info/Helicopter',
+      'Access-Control-Allow-Origin' => 'http://www.benbaron.info',
       # 'Access-Control-Allow-Origin' => '*',
       'Access-Control-Request-Method' => %w{GET POST PATCH DELETE}.join(",")
       }
